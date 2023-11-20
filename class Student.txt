@@ -1,0 +1,10 @@
+class Student:
+    pass
+class Marks:
+    pass
+student_instance = Student()
+marks_instance = Marks()
+print(f"Is student_instance an instance of Student? {isinstance(student_instance, Student)}")
+print(f"Is marks_instance an instance of Marks? {isinstance(marks_instance, Marks)}")
+print(f"Is Student a subclass of object? {issubclass(Student, object)}")
+print(f"Is Marks a subclass of object? {issubclass(Marks, object)}")
